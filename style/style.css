@@ -54,6 +54,7 @@ li a{
     margin: 30px 30px 30px 200px;
     display: flex;
     align-items: center;
+    justify-content:space-between;
 }
 .banner .profile-picture{
     width: 500px;
@@ -72,4 +73,33 @@ li a{
 }
 .banner-content p{
     margin: 0 0  5 ;
+}
+.about{
+    background-color:aquamarine;
+    margin-top: 70px;
+     
+    
+    padding: 130px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+     
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-container{
+    display: flex;
+    justify-content:space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 0;
+}
+.info-description{
+    margin-top: 0;
 }
