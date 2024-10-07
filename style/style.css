@@ -45,6 +45,10 @@ li a{
 /* header related style*/
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/blue-background-7470781_1280.jpg);
+    background-position: bottom right;
+    background-repeat:no-repeat ;
+    
 }
 .banner{
     margin: 30px 30px 30px 200px;
@@ -53,4 +57,19 @@ li a{
 }
 .banner .profile-picture{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 50px;
+     margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+     margin: 0px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-content p{
+    margin: 0 0  5 ;
 }
