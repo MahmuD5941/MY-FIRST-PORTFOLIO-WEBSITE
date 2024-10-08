@@ -75,11 +75,10 @@ li a{
     margin: 0 0  5 ;
 }
 .about{
-    background-color:aquamarine;
+    background-color:rgb(130, 175, 160);
     margin-top: 70px;
-     
-    
-    padding: 130px;
+    border-radius: 10px;
+    padding: 50px;
 }
 .section-title{
     text-align: center;
@@ -99,7 +98,31 @@ li a{
 }
 .info-title{
     margin-bottom: 0;
+    font-size: smaller;
 }
 .info-description{
     margin-top: 0;
+    font-weight: bolder;
+    font-size: larger;
+}
+.what-i-do-parent-div{
+    margin:60px auto ;
+    max-width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+.what-i-do-title{
+    font-size: 36px;
+}
+.skill-parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-child-div{
+    padding: 20px;
+}
+.image{
+     height:50px ;
+     width: 50px;
+     
 }
